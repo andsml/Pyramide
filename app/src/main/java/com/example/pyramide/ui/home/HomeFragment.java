@@ -35,6 +35,13 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
+
+        //final Button NouvPartie = findViewById(R.id.NouvPartie_id);
+        //NouvPartie.setOnClickListener(new View.OnClickListener(){
+        //    public void onClick(View v){
+                // code
+         //   }
+       // });
         return root;
     }
 
