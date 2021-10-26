@@ -33,4 +33,13 @@ public class MainActivity extends AppCompatActivity {
         //NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
+    final Button NouvPartie=(Button)findViewById(R.id.loginbtn);
+    NouvPartie.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View v)
+        {
+            Intent launchactivity= new Intent(MainActivity.this,NombreJoueurs.class);
+            startActivity(launchactivity);
+
 }
