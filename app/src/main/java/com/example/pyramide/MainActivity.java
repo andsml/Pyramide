@@ -16,15 +16,11 @@ import com.example.pyramide.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    private Button NouvPartie;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        NouvPartie=(Button)findViewById(R.id.button);
-      /*  NouvPartie.setOnClickListener(new View.OnClickListener());
-        NouvPartie.setOnClickListener(this);*/
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -39,15 +35,5 @@ public class MainActivity extends AppCompatActivity {
         //NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
- /*   public Intent(MainActivity, NombreJoueurs );
 
-        @Override
-        public void onClick(View v) {
-            Intent NombreJoeursIntent = new Intent(MainActivity.this, NombreJoueurs.class);
-            startActivity(NombreJoeursIntent);
-        }
-
-    public void startActivity(Intent intent){ //pour démarer une activity
-
-    }*/
 }
