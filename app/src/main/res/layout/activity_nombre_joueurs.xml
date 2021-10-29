@@ -6,4 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".NombreJoueurs">
 
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="239dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonOnClick"
+        android:text="-"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonOnClick"
+        android:text="OK"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="568dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
