@@ -12,9 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.pyramide.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_nombre_joueurs"
+        android:name="com.example.pyramide.NombreJoueurs"
+        android:label="Nombre de joueurs"
+        tools:layout="@layout/activity_nombre_joueurs"
+        />
 
 </navigation>

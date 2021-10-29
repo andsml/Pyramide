@@ -29,20 +29,21 @@ public class HomeFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-    final Intent NombreJoeursIntent = new Intent().setClass(this,NombreJoueurs.class);
+    final Intent NombreJoueursIntent = new Intent().setClass(this,NombreJoueurs.class);
 
     NouvPartie = (Button) findViewById(R.id.button);
     NouvPartie.setOnClickListener(new View.OnClickListener());
 
         @Override
         public void onClick(View v) {
-            startActivity(NombreJoeursIntent);
+            startActivity(NombreJoueursIntent);
         }
     }
 
-    public void startActivity(Intent intent){ //pour démarer une activity
+    /*public void startActivity(Intent intent){ //pour démarer une activity
+
         NombreJoueurs;
-    }
+    }*/
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
