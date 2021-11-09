@@ -1,6 +1,8 @@
 package com.example.pyramide;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.View;
 import android.widget.TextView;
 import android.os.Bundle;
 

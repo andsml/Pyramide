@@ -29,7 +29,7 @@ public class HomeFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-    final Intent NombreJoueursIntent = new Intent().setClass(this,NombreJoueurs.class);
+   /* Intent NombreJoueursIntent = new Intent().setClass(HomeFragment,NombreJoueurs.class);
 
     NouvPartie = (Button) findViewById(R.id.button);
     NouvPartie.setOnClickListener(new View.OnClickListener());
@@ -37,7 +37,8 @@ public class HomeFragment extends Fragment {
         @Override
         public void onClick(View v) {
             startActivity(NombreJoueursIntent);
-        }
+        }  */
+
     }
 
     /*public void startActivity(Intent intent){ //pour démarer une activity
