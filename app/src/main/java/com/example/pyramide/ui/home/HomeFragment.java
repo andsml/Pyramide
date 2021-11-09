@@ -14,8 +14,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.pyramide.NombreJoueurs;
-import com.example.pyramide.R;
 import com.example.pyramide.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
@@ -35,7 +33,7 @@ public class HomeFragment extends Fragment {
     NouvPartie.setOnClickListener(new View.OnClickListener());
 
         @Override
-        public void onClick(View v) {
+        public void onClick(View view) {
             startActivity(NombreJoueursIntent);
         }  */
 
