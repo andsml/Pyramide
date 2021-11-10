@@ -9,15 +9,14 @@
     android:paddingTop="?attr/actionBarSize">
 
 
-    <androidx.fragment.app.FragmentContainerView
-
-        android:id="@+id/1er"
-        android:name=".MainActivity"
-        android:layout_width="253dp"
-        android:layout_height="469dp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="56dp"
-        />
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.pyramide.ui.home.HomeFragment"
+        android:layout_width="298dp"
+        android:layout_height="566dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="43dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

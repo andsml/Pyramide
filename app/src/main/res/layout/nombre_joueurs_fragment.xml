@@ -7,7 +7,7 @@
 
 
     <TextView
-        android:id="@+id/textMessage"
+        android:id="@+id/nombre_joueurs_fragment_text"
         android:layout_width="239dp"
         android:layout_height="145dp"
         android:layout_gravity="center"
@@ -16,31 +16,30 @@
         tools:layout_editor_absoluteY="222dp" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/nombre_joueurs_fragment_button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
         android:text="+"
-        android:textSize="20dp"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="492dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/nombre_joueurs_fragment_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="buttonOnClick"
         android:text="-"
-        android:textSize="20dp"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="219dp"
         tools:layout_editor_absoluteY="492dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/nombre_joueurs_fragment_button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="buttonOnClick"
-        android:text="OK"
-        android:textSize="20dp"
+        android:text="Ok"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="568dp" />
 
