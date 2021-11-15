@@ -6,8 +6,22 @@
     tools:context=".ui.home.Nom">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:id="@+id/nom_fragment_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liste des joueurs. Entrez vos noms !"
+        android:textSize="20dp"
+        android:translationX="50dp"
+        android:translationY="30dp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_text"
+        android:layout_gravity="center"
+        android:choiceMode="">
+    </ListView>
+
 
 </FrameLayout>
