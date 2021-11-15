@@ -29,13 +29,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     }*/
 
 
-    @Override
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             //return inflater.inflate(R.layout.fragment_home, container, false);
 
             //Inflate the layout of HomeFragment
-            View result=inflater.inflate(R.layout.fragment_home, container, false);
-            //Set onClickListener to button "SHOW ME DETAILS"
+        View result=inflater.inflate(R.layout.fragment_home, container, false);
             result.findViewById(R.id.fragment_home_button).setOnClickListener(this);
             return result;
     }
